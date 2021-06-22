@@ -12,4 +12,8 @@ public class EmpregadoTerceirizado extends Empregado {
 		this.adicional = adicional;
 	}
 
+	@Override
+	public double realizarPagamento() {
+		return super.realizarPagamento();
+	}
 }
