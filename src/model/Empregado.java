@@ -29,5 +29,9 @@ public class Empregado {
 	public void setValorPorHora(double valorPorHora) {
 		this.valorPorHora = valorPorHora;
 	}
+	
+	public double realizarPagamento() {
+		return 0.0;
+	}
 
 }
